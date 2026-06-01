@@ -107,7 +107,7 @@ GET /weather/?country=Nigeria&city=Lagos&units=metric
 
 ```json
 {
-  "detail": "City not found"
+  "city not found in country
 }
 ```
 
