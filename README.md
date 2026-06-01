@@ -10,6 +10,8 @@ API Documentation (Swagger UI):
 
 https://weather-api-production-90cd.up.railway.app/docs
 
+![API Documentation](images/screenshot_1.PNG)
+
 ## ✨ Features
 
 - 🌍 Real-time weather data for cities worldwide
@@ -110,7 +112,7 @@ GET /weather/?country=Nigeria&city=Lagos&units=metric
   "city not found in country
 }
 ```
-
+![API Documentation](images/screenshot_2.PNG)
 ### Invalid Units
 
 ```json
@@ -118,7 +120,7 @@ GET /weather/?country=Nigeria&city=Lagos&units=metric
   "detail": "Units must be 'metric' or 'imperial'"
 }
 ```
-
+![API Documentation](images/screenshot_3.PNG)
 ## 📂 Project Structure
 
 ```text
