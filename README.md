@@ -117,7 +117,7 @@ GET /weather/?country=Nigeria&city=Lagos&units=metric
 
 ```json
 {
-  "detail": "Units must be 'metric' or 'imperial'"
+  "detail": "Invalid units. Use 'metric' for Celsius or 'imperial' for Fahrenheit"
 }
 ```
 ![API Documentation](images/screenshot_3.PNG)
@@ -160,7 +160,7 @@ This project helped me gain hands-on experience with:
 **Babalola Sanni**
 
 - GitHub: https://github.com/sannibabalola
-- X (Twitter): https://instagram.com/debabzzy
+- LinkedIn: https://www.linkedin.com/in/sanni-babalola
 
 ## ⭐ Support
 
