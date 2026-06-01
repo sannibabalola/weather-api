@@ -20,6 +20,11 @@ load_dotenv()
 # Create the app
 app = FastAPI()
 
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Weather API! Visit /docs for documentation"}
+
 # Storing the API Key and the OpenWeather base URL
 API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
